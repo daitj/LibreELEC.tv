@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -rf ../build.KodiPI-RPi4.arm-10.0-devel/install_pkg/linux-*
+rm -rf ../build.KodiPI-RPi4.arm-10.0-devel/build/linux-*
+rm -rf ../build.KodiPI-RPi4.arm-10.0-devel/image/.stamps/linux
+rm -rf ../build.KodiPI-RPi4.arm-10.0-devel/.stamps/linux

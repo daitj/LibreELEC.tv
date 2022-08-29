@@ -1,23 +1,23 @@
 ### DISTRO INFORMATION ###
 
 # Name of the Distro to build (full name, without special characters)
-  DISTRONAME="LibreELEC"
+  DISTRONAME="KodiPI"
 
 # short project description
-  DESCRIPTION="LibreELEC is a fast and user-friendly Kodi Entertainment Center distribution."
+  DESCRIPTION="KodiPI is a fast and user-friendly Kodi Entertainment Center distribution."
 
 
 ### USER INTERFACE SETTINGS ###
 
 # Welcome Message for e.g. SSH Server (up to 5 Lines)
   GREETING0="##############################################"
-  GREETING1="#                 LibreELEC                  #"
-  GREETING2="#            https://libreelec.tv            #"
+  GREETING1="#                   KodiPI                   #"
+  GREETING2="#                                            #"
   GREETING3="##############################################"
   GREETING4=""
 
 # Root password to integrate in the target system
-  ROOT_PASSWORD="libreelec"
+  ROOT_PASSWORD="kodipi"
 
 # Partition labels for USB/SD installation media
   DISTRO_BOOTLABEL="LIBREELEC"
@@ -178,7 +178,7 @@
   WIRELESS_DAEMON="iwd"
 
 # build and install iSCSI support - iscsistart (yes / no)
-  ISCSI_SUPPORT="no"
+  ISCSI_SUPPORT="yes"
 
 # build with NFS support (mounting nfs shares via the OS) (yes / no)
   NFS_SUPPORT="yes"
@@ -239,7 +239,7 @@
 
 # build and install ALSA Audio support (yes / no)
   ALSA_SUPPORT="yes"
-
+  
 # additional packages to install:
 # Space separated list is supported,
 # e.g. ADDITIONAL_PACKAGES="PACKAGE1 PACKAGE2"
